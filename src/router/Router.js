@@ -1,13 +1,16 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import Home from '../views/home'
+import SobreMim from '../views/sobre';
 import NotFound from '../views/not-found'
 
 const MainRouter = () => {
     return (
         <Router>
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route exact path="/" element={<SobreMim />} />
+                {/* <Route exact path="/tecnologias" element={<Tecnologias />} />
+                <Route exact path="/projetos" element={<Projetos />} />
+                <Route exact path="/contato" element={<Contato />} /> */}
                 <Route exact path="*" element={<NotFound />} />
             </Routes>
         </Router>

@@ -1,6 +1,6 @@
 import NavBar from "../../components/nav";
 
-const NotFound = () => {
+const SobreMim = () => {
   return (
     <>
       <NavBar />
@@ -8,4 +8,4 @@ const NotFound = () => {
   )
 }
 
-export default NotFound;
+export default SobreMim;

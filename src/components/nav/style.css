@@ -1,0 +1,76 @@
+nav {
+    background-color: var(--amarelo);
+    height: 7vh;
+}
+
+.menuHamburguer img {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.dropdownMenu {
+    background-color: var(--cinza);
+    color: var(--cor-de-fundo);
+    height: 100vh;
+    width: 55vw;
+    font-weight: 500;
+}
+
+.dropdownMenu ul {
+    padding-left: 0;
+}
+
+.dropdownMenu li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.dropdownMenu li:hover {
+    background-color: var(--amarelo);
+    color: var(--cor-de-fundo);
+    font-weight: 600;
+}
+
+.navbar__container {
+    display: none;
+}
+
+@media screen and (min-width: 1728px) {
+
+    .dropdownMenu,
+    .menuHamburguer__container {
+        display: none;
+    }
+
+    nav {
+        height: 4em;
+    }
+
+    .navbar__container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--cor-de-fundo);
+        font-weight: 600;
+    }
+    
+    .navbar__options {
+        padding: 20px;
+    }
+    
+    .navbar__options:hover {
+        background-color: var(--cor-de-fundo);
+        color: var(--cinza);
+        font-weight: 600;
+    }
+
+    .navbar__options a {
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+    }
+
+    .navbar__options:hover a {
+        color: var(--cinza);
+    }
+
+}
