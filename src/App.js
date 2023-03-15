@@ -1,5 +1,5 @@
-import MainRouter from './router/Router'
+import ScrollRouter from './router/scrollRouter'
 
-const App = () => <MainRouter />
+const App = () => <ScrollRouter />
 
 export default App

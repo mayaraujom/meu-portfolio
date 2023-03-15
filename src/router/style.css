@@ -1,0 +1,50 @@
+.scrollRouter {
+    display: none;
+}
+
+@media screen and (min-width: 950px) {
+
+    .scrollRouter {
+        display: block;
+    }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+    }
+    
+    .nav__container__actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 1em;
+    }
+    
+    li {
+        cursor: pointer;
+        margin: 1em;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: var(--cinza);
+    } 
+    
+    li:hover {
+        color: var(--amarelo);
+    }
+    
+    li a:hover {
+        color: var(--amarelo);
+    }
+
+}

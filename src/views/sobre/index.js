@@ -1,15 +1,11 @@
-import NavBar from "../../components/nav";
 import SideBar from "../../components/sidebar";
 
 import './style.css'
-import codeGirl from '../../assets/images/developer.png'
-import Experiencia from "../experiencia";
 
 const SobreMim = () => {
   return (
     <>
       <SideBar />
-      <NavBar />
       <section className="sobre-mim__section">
         <div className="text__content">
           <div className="title__section">

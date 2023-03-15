@@ -19,7 +19,7 @@ const SideBar = () => {
         {
           icons.map((item, index) => (
             <div key={index}>
-              <a href={item.link} target='_blank'>
+              <a href={item.link} target='_blank' rel="noreferrer">
                 <img src={item.icon} alt={`${iconsTitle[index]} logo`} />
               </a>
             </div>

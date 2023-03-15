@@ -1,4 +1,3 @@
-import NavBar from "../../components/nav";
 import SideBar from "../../components/sidebar";
 
 import './style.css'
@@ -7,11 +6,10 @@ const Experiencia = () => {
   return (
     <>
       <SideBar />
-      <NavBar />
       <section className="experiencia__section">
         <div className="text__content_experiencia">
           <div className="title__section_experiencia">
-            <span className="title__section-subtitle_experiencia">O que venho</span>
+            <span className="title__section-subtitle_experiencia">o que venho</span>
             <span className="title__section-title_experiencia">aprendendo</span>
           </div>
           <div className="description__experiencia">
