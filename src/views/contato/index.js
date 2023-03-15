@@ -1,13 +1,13 @@
 import NavBar from "../../components/nav";
 import SideBar from "../../components/sidebar";
 
-const NotFound = () => {
+const Contato = () => {
   return (
     <>
-      <NavBar />
       <SideBar />
+      <NavBar />
     </>
   )
 }
 
-export default NotFound;
+export default Contato;

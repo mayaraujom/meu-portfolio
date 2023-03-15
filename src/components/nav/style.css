@@ -12,7 +12,7 @@ nav {
     background-color: var(--cinza);
     color: var(--cor-de-fundo);
     height: 100vh;
-    width: 55vw;
+    width: 100vw;
     font-weight: 500;
 }
 
@@ -35,7 +35,7 @@ nav {
     display: none;
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 950px) {
 
     .dropdownMenu,
     .menuHamburguer__container {
@@ -44,33 +44,27 @@ nav {
 
     nav {
         height: 4em;
+        background-color: var(--cor-de-fundo);
     }
 
     .navbar__container {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        color: var(--cor-de-fundo);
         font-weight: 600;
     }
     
     .navbar__options {
         padding: 20px;
     }
-    
-    .navbar__options:hover {
-        background-color: var(--cor-de-fundo);
-        color: var(--cinza);
-        font-weight: 600;
-    }
 
     .navbar__options a {
         text-decoration: none;
-        color: var(--cor-de-fundo);
+        color: var(--cinza);
     }
 
     .navbar__options:hover a {
-        color: var(--cinza);
+        color: var(--amarelo);
     }
 
 }

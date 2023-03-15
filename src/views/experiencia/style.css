@@ -1,0 +1,52 @@
+.experiencia__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 93vh;
+}
+
+.title__section_experiencia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+}
+
+.title__section-title_experiencia {
+    color: var(--amarelo);
+    font-size: 2.5em;
+    font-weight: 700;    
+    margin-top: -0.5em;    
+}
+
+.tec_highlighter {
+    color: var(--amarelo);
+}
+
+.title__section-subtitle_experiencia {
+    font-size: 2em;
+}
+
+.description__experiencia {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 950px) {
+
+    .experiencia__section {
+        align-items: center;
+        flex-direction: row;        
+        justify-content: flex-start;
+        margin: 0 auto;
+        width: 60vw;
+    }
+
+    .title__section-subtitle_experiencia {
+        font-size: 2em; 
+    }
+
+    .title__section-title_experiencia {
+        font-size: 5em;
+    }
+
+}
