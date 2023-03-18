@@ -1,11 +1,8 @@
-import SideBar from "../../components/sidebar";
-
 import './style.css'
 
 const Experiencia = () => {
   return (
     <>
-      <SideBar />
       <section className="experiencia__section">
         <div className="text__content_experiencia">
           <div className="title__section_experiencia">

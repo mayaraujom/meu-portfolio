@@ -8,7 +8,7 @@ const SideBar = () => {
   const icons = [
     { icon: Github, link: 'https://github.com/mayaraujom' },
     { icon: Linkedin, link: 'https://www.linkedin.com/in/mayaraujomoraes/' },
-    { icon: Instagram, link: 'https://www.instagram.com/waaas_p/' }
+    { icon: Instagram, link: 'https://www.instagram.com/mayaraujomm/' }
   ];
 
   const iconsTitle = ["Github", "Linkedin", "Instagram"];

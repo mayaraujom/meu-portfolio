@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import SideBar from "../components/sidebar";
 
 import Contato from "../views/contato";
 import Experiencia from "../views/experiencia";
@@ -10,6 +11,7 @@ import './style.css'
 const ScrollRouter = () => {
   return (
     <>
+      <SideBar />
       <div className="scrollRouter">
         <header className="nav">
           <nav className="nav__container__actions">

@@ -1,0 +1,20 @@
+.projects__section {
+    height: 93vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.cards__container {
+    width: 50vw;
+}
+
+.projects__section-header-title {
+    color: var(--amarelo);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.projects__section-header-title-zip {
+    font-size: 2.5em;
+    font-weight: 700;
+}

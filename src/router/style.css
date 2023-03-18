@@ -16,6 +16,7 @@
     }
     
     .nav__container__actions {
+        background-color: var(--cor-de-fundo);
         display: flex;
         align-items: center;
         justify-content: flex-end;

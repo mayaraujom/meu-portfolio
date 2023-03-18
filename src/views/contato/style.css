@@ -1,55 +1,39 @@
-.sobre-mim__section {
+.contato__section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 93vh;
 }
 
-.containers {
-    display: flex;
-    justify-content: space-between;
-}
-
-.title__section {
+.title__section_contato {
     display: flex;
     flex-direction: column;
     margin-left: 0.5em;
 }
 
-.title__section-title {
+.title__section-title_contato {
     color: var(--amarelo);
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;    
     margin-top: -0.5em;    
 }
 
-.title__section-subtitle {
+.tec_highlighter {
+    color: var(--amarelo);
+}
+
+.title__section-subtitle_contato {
     font-size: 2em;
 }
 
-.about__section {
+.description__contato {
     margin-left: 1em;
     margin-top: 1em;
 }
 
-.desktop__descript {
-    display: none;
-}
-
 @media screen and (min-width: 950px) {
-    .mobile__descript {
-        display: none;
-    }
 
-    .desktop__descript {
-        display: block;
-    }
-
-    .desktop__descript p {
-        margin-bottom: -0.2em;
-    }
-
-    .sobre-mim__section{
+    .contato__section {
         align-items: center;
         flex-direction: row;        
         justify-content: flex-start;
@@ -57,15 +41,12 @@
         width: 60vw;
     }
 
-    .title__section-intro {
+    .title__section-subtitle_contato {
         font-size: 2em; 
     }
 
-    .title__section-title {
+    .title__section-title_contato {
         font-size: 5em;
     }
-    
-    .title__section-subtitle {
-        font-size: 4em;
-    }
+
 }
